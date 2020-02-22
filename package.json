@@ -1,0 +1,37 @@
+{
+  "name": "keuangan",
+  "version": "1.0.0",
+  "description": "sistem informasi keuangan",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudican/keuangan-backend.git"
+  },
+  "keywords": [
+    "keuangan",
+    "node-js",
+    "expressjs"
+  ],
+  "author": "Yudi Candra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yudican/keuangan-backend/issues"
+  },
+  "homepage": "https://github.com/yudican/keuangan-backend#readme",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "@hapi/joi-date": "^2.0.1",
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "heroku": "^7.38.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.10",
+    "nodemon": "^1.19.4"
+  }
+}
